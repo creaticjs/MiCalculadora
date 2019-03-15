@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="cap.CSS">
+</head>
+<body>
+    <div></div>
+    <h1>Mi Calculadora</h1>
+    <div></div>
+    <form name="calculator">
+            <h2>Calculadora BootCamp</h2>
+            <p>Haciendo Cuentas en el BootCamp.</p>
+            <!--<input type="button" name="ans" value="">-->
+            <input type="textfield" value="" name="ans" readonly="readonly">
+            <input type="button" value="." onClick="document.calculator.ans.value+='.'">
+            <br>
+            <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+            <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+            <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+            <input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+            <br>
+            <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+            <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+            <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+            <input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+            <br>
+            <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+            <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+            <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+            <input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+            <br>
+            <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+            <input type="button" value="c" onClick="document.calculator.ans.value =' '">
+            <input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+            <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+            </form>
+        
+    
+
+    <script src="cap.CSS"></script>
+</body>
+</html>
